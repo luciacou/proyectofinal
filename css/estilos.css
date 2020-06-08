@@ -39,7 +39,7 @@ body {
     padding: 0;
   }
   
-/*------------------------------- ABRE CODEPEN: PONER LINK ------------------------------- data-wow-duration="2s" data-wow-delay="6.5s"id="web"*/
+/*------------------------------- ABRE CODEPEN: https://codepen.io/franknoirot/pen/qzvyVd?__cf_chl_jschl_tk__=c0513f042c3b36034c515785a0b45ab28c6636ca-1591657950-0-AXxl5drD4uydsvFTyD1UjgoZ1kx6wn63T9VvANuuqs-PwqeBTEQwKD51Hh-twQTr-ISxF8_Y0F6QSKm5j2WeEcSZdKXSV_nrMB1DAn3JqTj3WdIJWPpARfriqeM3E5YGFa7NaKyfffYRJiGJ_2N4dLqrqe9MU0GJZDIfMCAo8ulPwdacsS8FiVX6uFm1MsD8Bh6TMDfo3Lb0tHd0cerccO5jTSsQSalR4-rWwBcjkXaNDCOiHfrOHoxN4cR792rfvy9LtgQ4WDDPkLFrz2qlz__0vMdabjzq7sYliYKbcRUe7sc-0FMwRi1H-prXulSaEkEDgStj3VSJlg8iQjIJpLjFm-OxNkH3Cur0LrpofLu2 -------------------------------*/
 .horiz-scroll-wrapper {
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh);
@@ -87,10 +87,10 @@ body {
     background: #ffac58; 
 }
 
- /*------------------------------- CIERRA CODEPEN: PONER LINK -------------------------------*/
+ /*------------------------------- CIERRA CODEPEN -------------------------------*/
 
 
- /*------------------------------- ABRE CODEPEN: PONER LINK -------------------------------*/
+ /*------------------------------- ABRE CODEPEN: https://codepen.io/whusterj/pres/bdYKop -------------------------------*/
 
 
 .float-shape{
@@ -105,7 +105,7 @@ body {
         to   { transform: translate(0, -0px); }    
     }
 
-     /*------------------------------- CIERRA CODEPEN: PONER LINK -------------------------------*/
+     /*------------------------------- CIERRA CODEPEN -------------------------------*/
 
 
  .shape1{
@@ -117,24 +117,23 @@ body {
     height: 1200px;
 }
 
-.shape2{
-  position: absolute;
-  top: 200px;
-  left: 1200px;
-  z-index: 0;
-  width: 1500px;
-  height: 1500px;
-}
 
 .shape3{
   position: absolute;
-  top: 200px;
-  left: 1200px;
+  top: -400px;
+  left: 2500px;
   z-index: 0;
-  width: 1500px;
-  height: 1500px;
+  width: 800px;
+  height: 800px;
 }
-
+.shape4{
+  position: absolute;
+  top: -200px;
+  right: -500px;
+  z-index: 0;
+  width: 1200px;
+  height: 1200px;
+}
 .profile-size{
 width: 100%;
 }
@@ -307,6 +306,36 @@ margin-right: 0!important;
   font-size: 38px;
   padding: 0px 10px;
 }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .profile-size{
+      width: 40%;
+    margin: 5% 28%;
+    }
+
+    .shape4{
+    display: none;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .profile-size{
+width: 80%;
+    }
+
+    .shape4{
+    display: none;
+    }
+}
 
 @media only screen 
   and (min-device-width: 320px) 
@@ -337,7 +366,7 @@ margin-right: 0!important;
     font-size: 14px!important;
   }
   
-  .shapes{
+  .shape1{
     position:absolute; 
     top: 0px;
     left: -250px;
@@ -345,11 +374,29 @@ margin-right: 0!important;
     width: 650px;
     height: 650px;
 }
+
+.shape3{
+  position:absolute; 
+  top: -350px;
+  left: 700px;
+  z-index:0;    
+  width: 650px;
+  height: 650px;
+}
 .profile-size{
   width: 50%;
 margin: 5% 25%;  
 }
-
+#email{
+  background-color: #1d3752!important;
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 28px;
+  padding: 0px 5px;
+}
+.shape4{
+display: none;
+}
 }
 
 

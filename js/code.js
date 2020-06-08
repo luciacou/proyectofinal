@@ -1,3 +1,10 @@
+//Para emular un gestor de contenido dinámico, generé ciertos objetos con arrays asociativos que contienen la data de cada uno de los proyectos.
+//En el html agregué los atributos data-element, en los cuales se espera recibir este contenido dinámico.
+// Con javascript obtuve toda la lista de elementos que van a recibir datos del html, preguntando que encuentre todos los atributos que tienen data-element. 
+//Obtengo todos las etiquetas html que van a recibir contenido dinámico. 
+//En la URL recibo un parámetro que se llama "page" que va a indicar qué contenido va a cargar. 
+//Si esa página está correctamente definida, se iteran todos los elementos que tienen el atributo "data-element" y cada uno de esos carga el contenido adentro.
+//Una vez que itero, pregunto a través del switch cuál es el valor del atributo que se está viendo y cargo la data que se encuentran en el array.
 
 var contenido = [];
 var branding =  { 
