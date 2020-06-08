@@ -250,7 +250,17 @@ border-color: #1d3752!important;
 
 }
 
-.s-1{
+.bkg-branding{
+  background: url("../img/orange2.png") no-repeat fixed center;
+}
+
+.bkg-dibujos{
+  background: url("../img/orange2.png") no-repeat fixed center;
+}
+.bkg-editorial{
+  background: url("../img/orange2.png") no-repeat fixed center;
+}
+.bkg-web{
   background: url("../img/orange2.png") no-repeat fixed center;
 }
 
