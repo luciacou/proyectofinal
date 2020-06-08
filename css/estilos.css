@@ -83,15 +83,10 @@ body {
     width: 100vw;
   }
   
-.slide.one {
-    background: #ffcc99; 
+.slides-color {
+    background: #ffac58; 
 }
-.slide.two {
-background: #ffac58;
-}
-.slide.three { background: #1d3752; }
-.slide.four { background: #ffac58; }
-  
+
  /*------------------------------- CIERRA CODEPEN: PONER LINK -------------------------------*/
 
 
@@ -113,13 +108,31 @@ background: #ffac58;
      /*------------------------------- CIERRA CODEPEN: PONER LINK -------------------------------*/
 
 
- .shapes{
+ .shape1{
     position:absolute; 
     top: -50px;
     left: -100px;
     z-index:0;    
     width: 1200px;
     height: 1200px;
+}
+
+.shape2{
+  position: absolute;
+  top: 200px;
+  left: 1200px;
+  z-index: 0;
+  width: 1500px;
+  height: 1500px;
+}
+
+.shape3{
+  position: absolute;
+  top: 200px;
+  left: 1200px;
+  z-index: 0;
+  width: 1500px;
+  height: 1500px;
 }
 
 .profile-size{
@@ -135,7 +148,7 @@ opacity: 0.6;
 }
 
 #branding:hover{
-background: url("../img/winepack.png");
+background: url("../img/homebranding-cover.png");
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
@@ -160,7 +173,7 @@ opacity: 0.6;
 }
 
 #dibujos:hover{
-background: url("../img/Woody.png");
+background: url("../img/homedibujos-cover.png");
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
@@ -186,7 +199,7 @@ opacity: 0.6;
 }
 
 #editorial:hover{
-background: url("../img/orange1Cut.png");
+background: url("../img/homecover-editorial.png");
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
@@ -196,7 +209,7 @@ opacity: 1;
 #editorial a h3{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 45%;
   height: 30%;
   width: 50%;
   margin: -15% 0 0 -30%;
@@ -211,7 +224,7 @@ opacity: 0.6;
 }
 
 #web:hover{
-background: url("../img/web.png");
+background: url("../img/homecover-web.png");
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
@@ -221,23 +234,12 @@ opacity: 1;
 #web a h3{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 55%;
   height: 30%;
   width: 50%;
   margin: -15% 0 0 -30%;
 }
 
-.btn{
-  height: 30%;
-  width: 100%;
-  font-size: 18px!important;
-  font-family: 'Lora', serif!important;
-}
-
-.btn-primary{
-background-color: #1d3752 !important;
-border-color: #1d3752!important;
-}
 
 .project{
   width: 100vw;
@@ -249,19 +251,27 @@ border-color: #1d3752!important;
   margin-bottom: 0!important;
 
 }
+nav  { 
+  background-color:#ffac58!important; 
+} 
+body > header > nav > div.mx-auto.order-0 {
+margin-right: 0!important;
+}
+
+
 
 .bkg-branding{
-  background: url("../img/orange2.png") no-repeat fixed center;
+  background: url("../img/branding-cover.png") no-repeat fixed center;
 }
 
 .bkg-dibujos{
-  background: url("../img/orange2.png") no-repeat fixed center;
+  background: url("../img/dibujos-cover.png") no-repeat fixed center;
 }
 .bkg-editorial{
-  background: url("../img/orange2.png") no-repeat fixed center;
+  background: url("../img/cover-editorial.png") no-repeat fixed center;
 }
 .bkg-web{
-  background: url("../img/orange2.png") no-repeat fixed center;
+  background: url("../img/cover-web.png") no-repeat fixed center;
 }
 
 .s-2{
@@ -281,11 +291,21 @@ border-color: #1d3752!important;
 .s-3{
   background-color: #1d3752;
   height: 100%;
-  padding-bottom: 20%;
 }
 
+
 .s-4{
-  background: url("../img/orange2.png") no-repeat fixed center;
+  background-color: #1d3752;
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+#email{
+  background-color: #1d3752!important;
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 38px;
+  padding: 0px 10px;
 }
 
 @media only screen 
